@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header-section">
+        <nav class="navbar">
+            <div class="brand-logo">
+                <a href="#"><i class="fa-solid fa-bars logo"></i></a>
+                <h2 class="logo-title">Test</h2>
+            </div>
+            <div class="links">
+                <a href="#"><i class="fa-solid fa-magnifying-glass search-icon"></i></a>
+                <div class="vertical-line"></div>
+                <div class="menu">
+                    <a href="#"><i class="fa-solid fa-gear"></i></a>
+                    <a href="#"><i class="fa-regular fa-bell"></i></a>
+                    <a href="#"><i class="fa-regular fa-calendar"></i></a>
+                </div>
+                <div class="vertical-line"></div>
+                <a href="#"><i class="fa-solid fa-user profile"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main-section">
+        <!-- Sidebar -->
+        <aside class="side-bar">
+            <i class="fa-solid fa-ellipsis-vertical" style="color: #e61d0f"></i>
+            <i class="fa-solid fa-thumbtack fa-rotate-by" style="color: #000000; --fa-rotate-angle: 45deg"></i>
+            <i class="fa-solid fa-bag-shopping" style="color: #b197fc"></i>
+            <i class="fa-solid fa-building" style="color: #47c511"></i>
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-solid fa-boxes-stacked" style="color: #f88f14"></i>
+            <i class="fa-solid fa-chart-simple" style="color: #74c0fc"></i>
+        </aside>
+
+        <!-- Dashboard Section -->
+        <section class="dashboard-section">
+            <div class="section-1">
+                <!-- Breadcrumbs and Links -->
+                <div class="breadcrums">
+                    <p class="breadcrum-grey">Dashboard</p>
+                    <p class="slash">/</p>
+                    <p class="breadcrum-grey">Lead</p>
+                    <p class="slash">/</p>
+                    <p class="breadcrum-black">LE-010071</p>
+                </div>
+                <div class="section-1-links">
+                    <h2 class="section-1-links-heading">LE-010071</h2>
+                    <div class="section-1-links-icons">
+                        <i class="fa-solid fa-plus add-icon"></i>
+                        <i class="fa-solid fa-user-plus"></i>
+                        <i class="fa-solid fa-list"></i>
+                        <i class="fa-solid fa-rotate-right fa-flip-horizontal"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-2">
+                <!-- Status Buttons -->
+                <div class="status new active">New</div>
+                <div class="status contacted">Contacted</div>
+                <div class="status nurturing">Nurturing</div>
+                <div class="status qualified">Qualified</div>
+                <div class="status unqualified">Unqualified</div>
+                <button class="converted-btn">Mark as Converted</button>
+            </div>
+
+            <div class="section-3">
+                <!-- Right Section -->
+                <div class="right-section">
+                    <div class="right-section-1">
+                        <!-- Contact Details -->
+                        <div class="right-section-1-title">
+                            <p class="right-section-1-desc">• Contacted</p>
+                            <h2 class="title">Mamta Naik</h2>
+                            <div class="right-section-1-profile">
+                                <i class="fa-solid fa-user profile"></i>
+                                <p class="text">Aniruddh Naidu</p>
+                            </div>
+                        </div>
+                        <div class="right-section-1-extra">
+                            <div class="pending">
+                                <i class="fa-solid fa-circle-info"></i>
+                                <p class="text">Pending Actions</p>
+                            </div>
+                            <div class="right-section-1-btn">
+                                <button class="create-about-btn">Create Account</button>
+                                <button class="create-contact-btn">Create Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-section-2">
+                        <!-- Additional Details -->
+                        <p class="text">Basic Details</p>
+                        <p class="text">Account Details</p>
+                        <p class="text">Lead Details</p>
+                        <p class="text">Team</p>
+                        <p class="text">Other Contacts</p>
+                    </div>
+                    <div class="right-section-3">
+                        <!-- Dropdown Menus -->
+                        <div class="right-section-3-top">
+                            <div class="list">
+                                <label for="about">Account</label>
+                                <select id="about">
+                                    <option value="Select Option">Select Option</option>
+                                </select>
+                            </div>
+                            <div class="list">
+                                <label for="contact">Contact</label>
+                                <select id="contact">
+                                    <option value="Select Option">Select Option</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="right-section-3-bottom">
+                            <div class="bottom-left">
+                                <!-- Contact Persons -->
+                                <div class="text1">
+                                    <p class="text-primary">Pranab Biyani</p>
+                                    <p class="text">Associate Vp</p>
+                                </div>
+                                <div class="text2">
+                                    <p class="text-primary">Pranab Biyani</p>
+                                    <p class="text">Associate Vp</p>
+                                </div>
+                            </div>
+                            <div class="bottom-right">
+                                <p>Sales Head</p>
+                                <p>Sales Head</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Left Section -->
+                <div class="left-section">
+                    <div class="left-section-top">
+                        <!-- Navigation and Form -->
+                        <div class="left-section-top-left">
+                            <div class="top-nav">
+                                <p class="nav-item active">Activity</p>
+                                <p class="nav-item">Actionables</p>
+                                <p class="nav-item">Tasks</p>
+                                <p class="nav-item">Note & File</p>
+                            </div>
+                            <div class="form-section">
+                                <!-- Action Buttons -->
+                                <div class="action-buttons">
+                                    <div class="btn">
+                                        <i class="fa-solid fa-phone"></i>
+                                        <p>Log a Call</p>
+                                    </div>
+                                    <div class="btn">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <p>Email</p>
+                                    </div>
+                                    <div class="btn">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <p>Event</p>
+                                    </div>
+                                </div>
+                                <form class="activity-form">
+                                    <!-- Form Fields -->
+                                    <div class="form-grid">
+                                        <div class="form-group">
+                                            <label>Subject</label>
+                                            <input type="text" placeholder="Input Text" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Add People</label>
+                                            <input type="text" placeholder="Input Text" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Due Date</label>
+                                            <input type="date" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Time</label>
+                                            <input type="time" />
+                                        </div>
+                                    </div>
+                                    <div class="description">
+                                        <label>Description</label>
+                                        <input type="text" placeholder="Input Text" />
+                                    </div>
+                                    <div class="form-actions">
+                                        <a href="#">+ Add Team Member</a>
+                                        <button type="submit">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="left-section-top-right">
+                            <!-- Timeline -->
+                            <div class="timeline-container">
+                                <h2 class="h2">Stage History</h2>
+                                <h3 class="h3">August 2024</h3>
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="time">28/08</div>
+                                        <div class="details">
+                                            <div class="category">Team | 09:00am</div>
+                                            <div class="description">Created Jiya Gopal</div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="time">28/08</div>
+                                        <div class="details">
+                                            <div class="category">Team | 10:00am</div>
+                                            <div class="description">Assigned to Aniruddh Naidu</div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="time">28/08</div>
+                                        <div class="details">
+                                            <div class="category">Event | 12:00pm</div>
+                                            <div class="description">Arrange a Call</div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="time">28/08</div>
+                                        <div class="details">
+                                            <div class="category">Task | 10:00pm</div>
+                                            <div class="description">Send Mail to Aniruddh Naidu</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-section-bottom">
+                        <!-- Upcoming Container-->
+                        <div class="upcoming-container">
+                            <div class="header">
+                                <h2>Upcoming & Overdue</h2>
+                                <a href="#" class="view-all">View All</a>
+                            </div>
+                    
+                            <div class="cards">
+                                <!-- Card 1 -->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <i class="fa-solid fa-phone-volume"></i>
+                                        <span>Arrange a Call</span>
+                                    </div>
+                                    <div class="card-details">
+                                        <div class="row">
+                                            <span>Start</span>
+                                            <span>End</span>
+                                        </div>
+                                        <div class="row">
+                                            <span><i class="icon">&#128197;</i> 27/08/2024</span>
+                                            <span><i class="icon">&#128197;</i> 27/08/2024</span>
+                                        </div>
+                                        <div class="row">
+                                            <span><i class="icon">&#128337;</i> 12:00pm</span>
+                                            <span><i class="icon">&#128337;</i> 01:00pm</span>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <!-- Card 2 -->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <i class="fa-regular fa-comments"></i>
+                                        <span>Follow Up Email</span>
+                                    </div>
+                                    <div class="card-details">
+                                        <div class="row">
+                                            <span>Start</span>
+                                            <span>End</span>
+                                        </div>
+                                        <div class="row">
+                                            <span><i class="icon">&#128197;</i> 27/08/2024</span>
+                                            <span>—</span>
+                                        </div>
+                                        <div class="row">
+                                            <span><i class="icon">&#128337;</i> 02:00pm</span>
+                                            <span>—</span>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <!-- Card 3 -->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <i class="fa-solid fa-phone-volume"></i>
+                                        <span>Arrange a Call</span>
+                                    </div>
+                                    <div class="card-details">
+                                        <div class="row">
+                                            <span>Start</span>
+                                            <span>End</span>
+                                        </div>
+                                        <div class="row">
+                                            <span><i class="icon">&#128197;</i> 28/08/2024</span>
+                                            <span><i class="icon">&#128197;</i> 28/08/2024</span>
+                                        </div>
+                                        <div class="row">
+                                            <span><i class="icon">&#128337;</i> 10:00am</span>
+                                            <span><i class="icon">&#128337;</i> 10:30am</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                     
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+
+</html>
